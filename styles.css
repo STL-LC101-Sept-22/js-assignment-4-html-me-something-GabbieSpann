@@ -3,15 +3,15 @@ html{
     padding: 5px;
     background-image:url('images/background.gif')
 }
-header{
+#mainHeader{
     font-family: 'Rubik Vinyl', cursive;
     font-size: 50px;
     text-align: center;
-    color: #ffce47;
+    color: #ff1717;
 }
 body{
-    margin-left: 200px;
-    margin-right:200px;
+    margin:8px;
+    display: block;
     background-color:#636363;
 }
 
@@ -19,7 +19,7 @@ ul{
     list-style-type: square;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
-    color:#ffffff;
+    color:#e4a0f7;
 }
 h2{
     text-align: center;
@@ -43,6 +43,12 @@ p{
 }
 p> img{
     width: 400px;
+}
+.funParagraph{
+    color: #1cc727;
+}
+#testP{
+    color:#1cc727;
 }
 footer{
     background-color:#00ffff;
